@@ -1,0 +1,40 @@
+@media screen and (max-width: 1000px) {
+<<<<<<< HEAD
+    * {
+        transition: all 1s;
+    }
+    .wrap {
+        width: 70%;
+        height: 780px;
+        margin: 15% auto 0 auto;
+    }
+    select,
+    input,
+    textarea {
+        width: 85%;
+    }
+    #bottom {
+        width: 65%;
+        margin: -15px 0 0 0;
+    }
+}
+=======
+  * {
+    transition: all 1s;
+  }
+  .wrap {
+    width: 70%;
+    height: 780px;
+    margin: 15% auto 0 auto;
+  }
+  select,
+  input,
+  textarea {
+    width: 85%;
+  }
+  #bottom {
+    width: 65%;
+    margin: -15px 0 0 0;
+  }
+}
+>>>>>>> cfd06aee6729394fa3a2682a9ca736c6a104f6e3
