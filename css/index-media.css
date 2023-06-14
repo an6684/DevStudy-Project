@@ -1,43 +1,4 @@
 @media screen and (max-width: 1600px) {
-<<<<<<< HEAD
-* {
-    transition: all 1s;
-}
-header {
-    width: 100%;
-    margin: 0 auto 3% auto;
-    text-align: center;
-}
-ul {
-    width: 80%;
-}
-h1 {
-    margin: 2% auto;
-}
-}
-
-@media screen and (max-width: 1300px) {
-* {
-    transition: all 1s;
-}
-ul {
-    width: 100%;
-    justify-content: space-around;
-}
-.card {
-    width: 50%;
-    height: 401px;
-}
-embed {
-    width: 80%;
-    height: 240px;
-}
-section {
-    margin-bottom: 80px;
-    padding: 0 10px;
-}
-}
-=======
   * {
     transition: all 1s;
   }
@@ -71,4 +32,37 @@ section {
     padding: 0 10px;
   }
 }
->>>>>>> cfd06aee6729394fa3a2682a9ca736c6a104f6e3
+
+@media screen and (max-width: 900px) {
+  * {
+    transition: all 1s;
+  }
+  nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  header > div {
+    position: relative;
+  }
+  #menu {
+    display: block;
+    border-style: none;
+    font-size: 3rem;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 2.5%;
+    top: 20%;
+  }
+  #menu i {
+    text-align: right;
+  }
+  .list-group {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}

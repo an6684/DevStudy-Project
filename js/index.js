@@ -56,5 +56,8 @@ if (localStorage.length) {
   }
 }
 
-
+//반응형 900px 이하일때 메뉴바 변경
+document.querySelector('#menu').addEventListener('click', function () {
+  document.querySelector('.list-group').classList.toggle('show')
+})
 

@@ -1,0 +1,145 @@
+@media screen and (max-width: 1000px) {
+    * {
+      transition: all 1s;
+    }
+    ul {
+      width: 90%;
+    }
+    .wrap {
+      width: 90%;
+      height: 610px;
+      margin: 0 auto 20px auto;
+    }
+    #url {
+      width: 100%;
+    }
+    #main-url {
+      width: 90%;
+      height: 480px;
+    }
+    .card {
+      margin: 0 auto;
+      width: 90%;
+      height: 190px;
+      border-radius: 20px;
+      margin-bottom: 2.5%;
+    }
+    .card a {
+      top: 14%;
+    }
+    embed {
+      width: 33%;
+      height: 135px;
+      margin-left: 5%;
+    }
+    #avi-box {
+      display: block;
+    }
+    #avi-list {
+      margin: 0 auto;
+      width: 90%;
+      height: 350px;
+    }
+    #scroll-box {
+      height: 310px;
+    }
+    #list-box {
+      margin: 3% auto;
+      padding: 0;
+    }
+    #heart {
+      font-size: 30px;
+      right: 20px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    * {
+      transition: all 1s;
+    }
+    nav {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
+    header > div {
+      position: relative;
+    }
+    #menu {
+      width: 35px;
+      height: 35px;
+      display: block;
+      border-style: none;
+      font-size: 3rem;
+      background-color: transparent;
+      cursor: pointer;
+      position: absolute;
+      right: 2.5%;
+      z-index: 99999;
+      top: 20%;
+    }
+    #menu i {
+      text-align: right;
+    }
+    .list-group {
+      display: none;
+    }
+    .show {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    * {
+      transition: all 1s;
+    }
+    ul {
+      width: 90%;
+    }
+    .wrap {
+      width: 90%;
+      height: 610px;
+      margin: 0 auto 20px auto;
+    }
+    #url {
+      width: 100%;
+    }
+    #main-url {
+      width: 90%;
+      height: 480px;
+    }
+    .card {
+      margin: 0 auto;
+      width: 90%;
+      height: 190px;
+      border-radius: 20px;
+      margin-bottom: 2.5%;
+    }
+    .card a {
+      top: 14%;
+    }
+    embed {
+      width: 33%;
+      height: 135px;
+      margin-left: 5%;
+    }
+    #avi-box {
+      display: block;
+    }
+    #avi-list {
+      margin: 0 auto;
+      width: 90%;
+      height: 350px;
+    }
+    #scroll-box {
+      height: 310px;
+    }
+    #list-box {
+      margin: 3% auto;
+      padding: 0;
+    }
+    #heart {
+      font-size: 30px;
+      right: 20px;
+    }
+  }

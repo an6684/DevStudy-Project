@@ -86,7 +86,8 @@ ul {
   font-weight: bold;
 }
 ul li,
-h3 {
+h3,
+a {
   color: rgb(11, 207, 11);
 }
 h1 {
@@ -98,4 +99,10 @@ hr {
   height: 1px;
   background-color: #ccc;
   color: #ccc;
+}
+.burger {
+  display: none;
+}
+#menu {
+  display: none;
 }
