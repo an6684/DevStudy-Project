@@ -79,7 +79,7 @@ header {
 ul {
   display: flex;
   margin: 1.5% auto;
-  width: 50%;
+  width: 60%;
   justify-content: space-around;
   font-size: 1.5rem;
   font-weight: bold;

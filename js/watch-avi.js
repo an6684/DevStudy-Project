@@ -119,3 +119,25 @@ for(let i=0; i<listTitle.length; i++) {
 document.querySelector('#menu').addEventListener('click', function () {
     document.querySelector('.list-group').classList.toggle('show')
   })
+
+  let secDetail=document.querySelectorAll('.sec-detail')
+
+  for (let i = 0; i < secDetail.length; i++) {
+    if (secDetail[i].innerText == subject)
+      secDetail[i].firstElementChild.style.color = 'rgb(5, 157, 5)'
+    secDetail[i].addEventListener('click', e => {
+      secDetail[i].href = `menu-detail.html?subject=${secDetail[i].innerText}`
+    })
+  }
+  
+  if(subject==secDetail[5].innerText){
+      for(let i=0;i<localStorage.length;i++){
+          let avi=JSON.parse(localStorage.getItem(i))
+          console.log(avi)
+          if(avi.isPlayingState){
+              let el=document.querySelector('#wrap')
+  
+              addKey(avi,el)
+          }
+      }
+  }
